@@ -2,6 +2,7 @@
   <main class="main">
     <Topo class="Topo "/>
     <Conteudo/>
+    <Rodape/>
   </main>
 </template>
 
@@ -10,12 +11,15 @@
 import { defineComponent } from 'vue'
 import Topo from '@/components/Topo.vue'
 import Conteudo from '../components/Conteudo.vue'
+import Rodape from '../components/Rodape.vue'
+
 
 export default defineComponent({
   name: 'HomePage',
   components: {
     Topo,
-    Conteudo
+    Conteudo,
+    Rodape
 }
 
 })

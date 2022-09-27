@@ -1,6 +1,8 @@
 <template>
-    <div>
-        <h2 class="titulo">Rodapé</h2>
+    <div class="align-content-center bg-bluegray-100 h-5rem flex align-items-center justify-content-center">
+        <span>
+            Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC MINAS</b>
+        </span>
     </div>
   </template>
   
