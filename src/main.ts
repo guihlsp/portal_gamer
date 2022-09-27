@@ -10,7 +10,11 @@ import InputText from 'primevue/inputtext';
 import Carousel from 'primevue/carousel';
 import Card from 'primevue/card';
 import Rating from 'primevue/rating';
-
+import Paginator from 'primevue/paginator';
+import Toolbar from 'primevue/toolbar';
+import Inplace from 'primevue/inplace';
+import CascadeSelect from 'primevue/cascadeselect';
+import Dropdown from 'primevue/dropdown';
 
 
 import '@fortawesome/fontawesome-free/css/all.css'
@@ -25,6 +29,11 @@ const app = createApp(App);
 
 app.use(PrimeVue);
 
+app.component('p-cascadeSelect', CascadeSelect)
+app.component('p-select', Dropdown)
+app.component('p-inplace', Inplace)
+app.component('p-toolbar', Toolbar)
+app.component('p-paginator', Paginator)
 app.component('p-rating', Rating)
 app.component('p-button', Button)
 app.component('p-menubar', Menubar)

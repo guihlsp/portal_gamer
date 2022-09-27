@@ -6,16 +6,16 @@
             </span>
         </template>
         <template #item="jogos">
-            <div class="grid p-3 justify-content-center bg-bluegray-100 min-h-1000">
+            <div class="grid p-4 justify-content-center bg-bluegray-100 align-items-center">
                 <div class="md:col-6 sm:col-12 align-items-end">
-                    <iframe width="100%" height="500px" :src="jogos.data.video" title="YouTube video player"
+                    <iframe class="border-round-2xl" width="100%" height="430px" :src="jogos.data.video" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
                 </div>
                 <div class="md:col-6 sm:col-12">
-                    <h2 class="text-center vertical-align-top">{{jogos.data.nome}}</h2>
+                    <h2 class="text-center">{{jogos.data.nome}}</h2>
                     <span>
                         <p><b>Descrição: </b>{{jogos.data.descricao}}
                         </p>
