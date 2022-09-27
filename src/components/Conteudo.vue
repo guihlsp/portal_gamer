@@ -2,7 +2,7 @@
     <Destaques/>
     <Lancamentos/>
     <Plataformas/>
-    <Publicacoes/>
+    <Publishers/>
     <Sobre/>
     <Editorial/>
 </template>
@@ -13,7 +13,7 @@
   import Destaques from '@/components/Conteudos/Destaques.vue'
   import Lancamentos from '@/components/Conteudos/Lancamentos.vue'
   import Plataformas from '@/components/Conteudos/Plataformas.vue'
-  import Publicacoes from '@/components/Conteudos/Publicacoes.vue'
+  import Publishers from '@/components/Conteudos/Publishers.vue'
   import Sobre from '@/components/Conteudos/Sobre.vue'
   import Editorial from '@/components/Conteudos/Editorial.vue'
   
@@ -23,7 +23,7 @@
       Destaques,
       Lancamentos,
       Plataformas,
-      Publicacoes,
+      Publishers,
       Sobre,
       Editorial
     }
