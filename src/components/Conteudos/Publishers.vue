@@ -64,7 +64,7 @@
             <div class="mb-3">
                 <h4>Principais jogos</h4>
                 <div class="ml-4">
-                    <span class="text-left ml-4">
+                    <span class="text-left">
                         <li>
                             Diablo
                         </li>
