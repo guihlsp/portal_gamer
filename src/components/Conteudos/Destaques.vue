@@ -6,7 +6,7 @@
             </span>
         </template>
         <template #item="jogos">
-            <div class="grid p-4 justify-content-center bg-bluegray-100 align-items-center">
+            <div class="grid p-4 justify-content-center bg-indigo-50 align-items-center">
                 <div class="md:col-6 sm:col-12 align-items-end">
                     <iframe class="border-round-2xl" width="100%" height="430px" :src="jogos.data.video" title="YouTube video player"
                         frameborder="0"

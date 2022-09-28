@@ -15,6 +15,7 @@ import Toolbar from 'primevue/toolbar';
 import Inplace from 'primevue/inplace';
 import CascadeSelect from 'primevue/cascadeselect';
 import Dropdown from 'primevue/dropdown';
+import Divider from 'primevue/divider';
 
 
 import '@fortawesome/fontawesome-free/css/all.css'
@@ -29,6 +30,7 @@ const app = createApp(App);
 
 app.use(PrimeVue);
 
+app.component('p-divider', Divider)
 app.component('p-cascadeSelect', CascadeSelect)
 app.component('p-select', Dropdown)
 app.component('p-inplace', Inplace)
