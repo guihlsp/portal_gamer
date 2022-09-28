@@ -1,5 +1,6 @@
 <template>
-    <p-carousel :value="jogos" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="true" class="Carrossel" :autoplayInterval="15000">
+    <p-carousel :value="jogos" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="true"
+        class="Carrossel" :autoplayInterval="15000">
         <template #header>
             <span>
                 <h2 class="titulo text-white">Destaques</h2>
@@ -8,8 +9,8 @@
         <template #item="jogos">
             <div class="grid p-4 justify-content-center bg-indigo-50 align-items-center border-round-2x1">
                 <div class="md:col-6 sm:col-12 align-items-end">
-                    <iframe class="border-round-2xl" width="100%" height="430px" :src="jogos.data.video" title="YouTube video player"
-                        frameborder="0"
+                    <iframe class="border-round-2xl" width="100%" height="430px" :src="jogos.data.video"
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
@@ -26,12 +27,14 @@
                         <p><b>Produtora: </b>{{jogos.data.produtora}}
                         </p>
                         <p><b>Avaliação: </b>
-                            <p-rating v-model="jogos.data.avaliacao" :stars="5" readonly="true" :cancel="false"></p-rating>
+                            <p-rating v-model="jogos.data.avaliacao" :stars="5" readonly="true" :cancel="false">
+                            </p-rating>
                         </p>
                     </span>
                     <div class="flex justify-content-evenly align-items-center mt-4">
                         <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
-                        <p-button type="button" label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised">
+                        <p-button type="button" label="Saiba mais..." icon="pi pi-info-circle"
+                            class="p-button-primary p-button-raised" @click="acessarSite(jogos.data.site)">
                         </p-button>
                         <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
                     </div>
@@ -130,13 +133,11 @@ export default defineComponent({
             ]
         }
     },
-    // computed: {
-    //     acessarSite: function(jogos,[site]){
-    //         return addEventListener("click", function() {
-    //         window.open(site, "_blank");
-    //         });
-    //     }
-    // },
+    methods: {
+        acessarSite(site: string) {
+            window.open(site, "_blank");
+        }
+    },
 
 })
 </script>
@@ -146,6 +147,5 @@ export default defineComponent({
     text-align: center;
     font-size: 48px;
 }
-
 </style>
   
