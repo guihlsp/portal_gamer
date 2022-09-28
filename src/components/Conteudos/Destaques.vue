@@ -92,7 +92,7 @@ export default defineComponent({
                     id: "5",
                     nome: "God of War (2018)",
                     descricao: " É o oitavo título da série God of War. Ao contrário dos jogos anteriores, que eram vagamente baseados na mitologia grega, este título é vagamente baseado na mitologia nórdica, com a maior parte do tempo situado na antiga Noruega no reino de Midgard.",
-                    genero: "MOBA",
+                    genero: "Ação, Aventura",
                     lancamento: "20 de Abril de 2018",
                     produtora: " Santa Monica Studio / Sony Interactive Entertainment",
                     plataformas: "Microsoft Windows, PS4, PS5",
