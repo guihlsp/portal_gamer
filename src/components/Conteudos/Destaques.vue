@@ -75,7 +75,7 @@ export default defineComponent({
                     plataformas: "Microsoft Windows, MacOS",
                     avaliacao: "3.6",
                     video: "https://www.youtube.com/embed/mDYqT0_9VR4",
-                    site: ""
+                    site: "https://www.leagueoflegends.com/pt-br/"
                 },
                 {
                     id: "3",
@@ -87,7 +87,7 @@ export default defineComponent({
                     plataformas: "Microsoft Windows",
                     avaliacao: "4.3",
                     video: "https://www.youtube.com/embed/TYqJALPVn0Y",
-                    site: ""
+                    site: "https://www.xbox.com/pt-BR/games/microsoft-flight-simulator"
                 },
                 {
                     id: "4",
@@ -99,7 +99,7 @@ export default defineComponent({
                     plataformas: "Microsoft Windows, PS4, Xbox One, PS5, Xbox Series X/S, Nintendo Switch",
                     avaliacao: "3.9",
                     video: "https://www.youtube.com/embed/o1igaMv46SY",
-                    site: ""
+                    site: "https://www.ea.com/pt-br/games/fifa/fifa-22"
                 },
                 {
                     id: "5",
@@ -111,7 +111,7 @@ export default defineComponent({
                     plataformas: "Microsoft Windows, PS4, PS5",
                     avaliacao: "4.9",
                     video: "https://www.youtube.com/embed/gOE2BVRCUkM",
-                    site: ""
+                    site: "https://store.steampowered.com/app/1593500/God_of_War/"
                 },
             ],
             responsiveOptions: [
