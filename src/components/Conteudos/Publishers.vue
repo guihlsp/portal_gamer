@@ -13,13 +13,13 @@
                 <h4>Principais jogos</h4>
                 <span class="text-left">
                     <li>
-                        Diablo
+                        God of War
                     </li>
                     <li>
-                        World of Warcraft
+                        The Last of Us
                     </li>
                     <li>
-                        Overwatch
+                        Marvel's Spider-Man
                     </li>
                 </span>
             </div>
@@ -39,13 +39,13 @@
                 <h4>Principais jogos</h4>
                 <span class="text-left">
                     <li>
-                        Diablo
+                        Minecraft
                     </li>
                     <li>
-                        World of Warcraft
+                        Forza Horizon 5
                     </li>
                     <li>
-                        Overwatch
+                        Sea of Thieves
                     </li>
                 </span>
             </div>
