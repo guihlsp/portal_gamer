@@ -2,7 +2,7 @@
     <p-carousel :value="jogos" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="true" class="Carrossel" :autoplayInterval="15000">
         <template #header>
             <span>
-                <h2 class="titulo">Destaques</h2>
+                <h2 class="titulo text-white">Destaques</h2>
             </span>
         </template>
         <template #item="jogos">
@@ -29,6 +29,12 @@
                             <p-rating v-model="jogos.data.avaliacao" :stars="5" readonly="true" :cancel="false"></p-rating>
                         </p>
                     </span>
+                    <div class="flex justify-content-evenly align-items-center mt-4">
+                        <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
+                        <p-button type="button" label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised">
+                        </p-button>
+                        <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
+                    </div>
                 </div>
             </div>
         </template>
@@ -53,7 +59,8 @@ export default defineComponent({
                     produtora: "FromSoftware",
                     plataformas: "PS4, Xbox Series X e Series S, Xbox One, PS5, Microsoft Windows",
                     avaliacao: "4.8",
-                    video: "https://www.youtube.com/embed/E3Huy2cdih0"
+                    video: "https://www.youtube.com/embed/E3Huy2cdih0",
+                    site: "https://en.bandainamcoent.eu/elden-ring/elden-ring"
                 },
                 {
                     id: "2",
@@ -64,7 +71,8 @@ export default defineComponent({
                     produtora: "Riot Games",
                     plataformas: "Microsoft Windows, MacOS",
                     avaliacao: "3.6",
-                    video: "https://www.youtube.com/embed/mDYqT0_9VR4"
+                    video: "https://www.youtube.com/embed/mDYqT0_9VR4",
+                    site: ""
                 },
                 {
                     id: "3",
@@ -75,7 +83,8 @@ export default defineComponent({
                     produtora: "Microsoft",
                     plataformas: "Microsoft Windows",
                     avaliacao: "4.3",
-                    video: "https://www.youtube.com/embed/TYqJALPVn0Y"
+                    video: "https://www.youtube.com/embed/TYqJALPVn0Y",
+                    site: ""
                 },
                 {
                     id: "4",
@@ -86,7 +95,8 @@ export default defineComponent({
                     produtora: "Eletronic Arts",
                     plataformas: "Microsoft Windows, PS4, Xbox One, PS5, Xbox Series X/S, Nintendo Switch",
                     avaliacao: "3.9",
-                    video: "https://www.youtube.com/embed/o1igaMv46SY"
+                    video: "https://www.youtube.com/embed/o1igaMv46SY",
+                    site: ""
                 },
                 {
                     id: "5",
@@ -97,7 +107,8 @@ export default defineComponent({
                     produtora: " Santa Monica Studio / Sony Interactive Entertainment",
                     plataformas: "Microsoft Windows, PS4, PS5",
                     avaliacao: "4.9",
-                    video: "https://www.youtube.com/embed/gOE2BVRCUkM"
+                    video: "https://www.youtube.com/embed/gOE2BVRCUkM",
+                    site: ""
                 },
             ],
             responsiveOptions: [
@@ -119,8 +130,13 @@ export default defineComponent({
             ]
         }
     },
-    methods: {
-    }
+    // computed: {
+    //     acessarSite: function(jogos,[site]){
+    //         return addEventListener("click", function() {
+    //         window.open(site, "_blank");
+    //         });
+    //     }
+    // },
 
 })
 </script>

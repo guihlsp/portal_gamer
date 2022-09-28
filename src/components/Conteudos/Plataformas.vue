@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="titulo">Plataformas</h2>
+        <h2 class="titulo text-white">Plataformas</h2>
     </div>
     <div class="grid justify-content-center gap-5">
         <div
@@ -23,7 +23,11 @@
                     </li>
                 </span>
             </div>
-            <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-success p-button-raised"></p-button>
+            <div class="flex justify-content-evenly align-items-center mt-2">
+                <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
+                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised"></p-button>
+                <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
+            </div>
         </div>
         <div
             class="col-8 md:col-6 lg:col-3 text-center border-1 border-primary-700 border-round-2xl bg-indigo-50 transition-colors transition-duration-1000 hover:bg-primary-200 shadow-5">
@@ -45,7 +49,11 @@
                     </li>
                 </span>
             </div>
-            <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-success p-button-raised"></p-button>
+            <div class="flex justify-content-evenly align-items-center mt-2">
+                <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
+                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised"></p-button>
+                <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
+            </div>
         </div>
         <div
             class="col-8 md:col-6 lg:col-3 text-center border-1 border-primary-700 border-round-2xl bg-indigo-50 transition-colors transition-duration-1000 hover:bg-primary-200 shadow-5">
@@ -67,7 +75,11 @@
                     </li>
                 </span>
             </div>
-            <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-success p-button-raised"></p-button>
+            <div class="flex justify-content-evenly align-items-center mt-2">
+                <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
+                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised"></p-button>
+                <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
+            </div>
         </div>
     </div>
     <div>

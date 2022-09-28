@@ -4,10 +4,10 @@
     <Plataformas/>
     <Publishers/>
     <div class="grid">
-      <div class="flex col-6 justify-content-center bg-indigo-50 ">
+      <div class=" col-6 justify-content-center bg-indigo-50">
         <Sobre/>
       </div>
-      <div class="flex col-6 justify-content-center bg-indigo-50 ">
+      <div class=" col-6 justify-content-center bg-indigo-50 ">
         <Editorial/>
       </div>
     </div>
