@@ -3,8 +3,14 @@
     <Lancamentos/>
     <Plataformas/>
     <Publishers/>
-    <Sobre/>
-    <Editorial/>
+    <div class="grid">
+      <div class="flex col-6 justify-content-center bg-indigo-50 ">
+        <Sobre/>
+      </div>
+      <div class="flex col-6 justify-content-center bg-indigo-50 ">
+        <Editorial/>
+      </div>
+    </div>
 </template>
   
 <script lang="ts">
@@ -31,7 +37,7 @@
   })
 </script>
   
-<style scoped>
-    
+<style>
+  
 </style>
   

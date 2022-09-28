@@ -1,12 +1,14 @@
 <template>
-  <p-menubar :model="items" class="bg-indigo-50">
-				<template #start>
-					<img alt="logo" src="@/assets/imgs/logo.png" height="40" class="mr-2 ">
-				</template>
-				<template #end>
-					<p-inputText placeholder="Pesquisar" type="text"></p-inputtext>
-				</template>
-		</p-menubar>  
+    <div class="grid">
+        <p-menubar :model="items" class=" col-12 bg-indigo-50">
+            <template #start>
+                <img alt="logo" src="@/assets/imgs/logo.png" height="40" class="mr-2 ">
+            </template>
+            <template #end>
+                <p-inputText placeholder="Pesquisar" type="text"></p-inputtext>
+            </template>
+        </p-menubar>
+    </div>
 </template>
 
 <script lang="ts">
