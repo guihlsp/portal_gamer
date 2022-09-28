@@ -21,7 +21,6 @@
             </template>
         </p-toolbar>
     </div>
-    <p-divider type="solid" layout="horizontal"/>
     <div class="grid justify-content-center gap-5">
         <div
             class="col-8 md:col-6 lg:col-3 text-center border-1 border-primary-700 border-round-2xl bg-indigo-50 transition-colors transition-duration-1000 hover:bg-indigo-50 shadow-5">

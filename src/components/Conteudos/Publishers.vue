@@ -63,7 +63,6 @@
             </div>
             <div class="mb-3">
                 <h4>Principais jogos</h4>
-                <div class="ml-4">
                     <span class="text-left">
                         <li>
                             Diablo
@@ -75,7 +74,6 @@
                             Overwatch
                         </li>
                     </span>
-                </div>
             </div>
             <div class="flex justify-content-evenly align-items-center mt-2">
                 <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
