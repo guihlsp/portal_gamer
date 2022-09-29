@@ -25,7 +25,8 @@
             </div>
             <div class="flex justify-content-evenly align-items-center mt-2">
                 <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
-                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised" @click="acessarlinks(p.link)"></p-button>
+                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised"
+                    @click="acessarlinks(p.link)"></p-button>
                 <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
             </div>
         </div>
@@ -33,14 +34,14 @@
     <div class="flex justify-content-center">
         <p-paginator class="mt-4 paginacao"></p-paginator>
     </div>
-  </template>
+</template>
   
-  <script lang="ts">
-  import { defineComponent } from 'vue'
-  
-  export default defineComponent({
-      name: "PublicacoesComponent",
-      data() {
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+    name: "PublicacoesComponent",
+    data() {
         return {
             publishers: [
                 {
@@ -69,25 +70,26 @@
                 },
             ]
         }
-      },
-      methods: {
+    },
+    methods: {
         acessarlinks(link: string) {
             window.open(link, "_blank");
         }
     }
-  });
-  </script>
-  <style scoped>
-    .titulo {
+});
+</script>
+<style scoped>
+.titulo {
     text-align: center;
     font-size: 48px;
-    }
+}
 
-    .imagem {
+.imagem {
     width: 100%;
-    }
-    .paginacao {
+}
+
+.paginacao {
     background: none;
 }
-  </style>
+</style>
   
