@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="titulo text-white">Publishers</h2>
+        <h2 class="titulo text-white" id="publishers">Publishers</h2>
     </div>
     <div class="grid justify-content-center gap-5">
         <div

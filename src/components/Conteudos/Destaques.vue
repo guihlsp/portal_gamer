@@ -1,9 +1,9 @@
 <template>
-    <p-carousel :value="jogos" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="false"
+    <p-carousel :value="jogos" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="true"
         class="Carrossel" :autoplayInterval="15000">
         <template #header>
             <span>
-                <h2 class="titulo text-white">Destaques</h2>
+                <h2 class="titulo text-white" id="destaques">Destaques</h2>
             </span>
         </template>
         <template #item="jogos">

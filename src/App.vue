@@ -1,7 +1,7 @@
 <template>
   <main class="">
     <div class="">
-      <Topo/>
+      <Topo class="sempre col-12"/>
     </div>
     <router-view/>
     <Rodape/>
@@ -24,7 +24,10 @@ export default defineComponent({
 })
 </script>
 <style>
- 
+ .sempre {
+  position: fixed; 
+  z-index: 1000;
+ }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

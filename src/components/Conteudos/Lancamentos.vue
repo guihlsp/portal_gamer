@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="titulo text-white">Lançamentos</h2>
+        <h2 class="titulo text-white" id="lancamentos">Lançamentos</h2>
     </div>
     <div class="grid">
         <p-toolbar class="mb-4 toolbox col-12">
@@ -38,22 +38,6 @@
                 <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
             </div>
         </div>
-        <!-- <div
-            class="col-8 md:col-6 lg:col-3 text-center border-1 border-primary-700 border-round-2xl bg-indigo-50 transition-colors transition-duration-1000 hover:bg-indigo-50 shadow-5">
-            <h3>God of War Ragnarök</h3>
-            <iframe class="border-round-2xl" width="100%" height="315" src="https://www.youtube.com/embed/x6oF3Jxu7X0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-            <div class="flex justify-content-evenly align-items-center mt-2">
-                <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
-                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised"
-                    type="button" @click="acessarlinks(jogos[0].link)"></p-button>
-                <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
-            </div>
-        </div> -->
-
     </div>
     <div>
         <p-paginator class="mt-4 paginacao"></p-paginator>
