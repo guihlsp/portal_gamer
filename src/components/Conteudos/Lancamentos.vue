@@ -32,7 +32,7 @@
             </iframe>
             <div class="flex justify-content-evenly align-items-center mt-2">
                 <p-button class="p-button-danger p-button-raised" icon="pi pi-thumbs-down-fill"></p-button>
-                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised"></p-button>
+                <p-button label="Saiba mais..." icon="pi pi-info-circle" class="p-button-primary p-button-raised" type="button"></p-button>
                 <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
             </div>
         </div>
@@ -119,6 +119,32 @@ export default defineComponent({
     name: "LancamentosComponent",
     data() {
         return {
+            jogos: [
+                {
+                    nome: "God of War Ragnarök",
+                    link: "https://www.playstation.com/pt-br/games/god-of-war-ragnarok/",
+                },
+                {
+                    nome: "Horizon Forbidden West",
+                    link: "https://www.playstation.com/pt-br/games/horizon-forbidden-west/",
+                },
+                {
+                    nome: "FIFA 2023",
+                    link: "https://www.ea.com/pt-br/games/fifa/fifa-23",
+                },
+                {
+                    nome: "The Last of Us Part I",
+                    link: "https://www.playstation.com/pt-br/games/the-last-of-us-part-i/",
+                },
+                {
+                    nome: "Gran Turismo 7",
+                    links: "https://www.playstation.com/pt-br/games/gran-turismo-7/",
+                },
+                {
+                    nome: "Call of Duty: Modern Warfare II",
+                    links: "https://www.callofduty.com/br/pt/modernwarfare2",
+                },
+            ],
             generoSelecionado: null,
             generos: [
                 {
@@ -151,7 +177,12 @@ export default defineComponent({
                 },
             ]
         }
-    }
+    },
+    methods: {
+        acessarlinks(links: string) {
+            window.open(links, "_blank");
+        }
+    },
 })
 </script>
 <style scoped>

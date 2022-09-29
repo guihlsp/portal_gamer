@@ -11,16 +11,16 @@
             </div>
             <div class="mb-3">
                 <h4>Principais jogos</h4>
-                <span class="text-left">
-                    <li>
+                <span class="grid justify-content-center">
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle vertical-align-middle">
                         Dota 2
-                    </li>
-                    <li>
+                    </ul>
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
                         Counter-Strike
-                    </li>
-                    <li>
-                        PUBG: BATTLEGROUNDS
-                    </li>
+                    </ul>
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
+                        PUBG
+                    </ul>
                 </span>
             </div>
             <div class="flex justify-content-evenly align-items-center mt-2">
@@ -37,16 +37,16 @@
             </div>
             <div class="mb-3">
                 <h4>Principais jogos</h4>
-                <span class="text-left">
-                    <li>
+                <span class="grid justify-content-center">
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
                         Fortnite
-                    </li>
-                    <li>
+                    </ul>
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
                         Fall Guys
-                    </li>
-                    <li>
+                    </ul>
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
                         Rocket League
-                    </li>
+                    </ul>
                 </span>
             </div>
             <div class="flex justify-content-evenly align-items-center mt-2">
@@ -55,24 +55,23 @@
                 <p-button class="p-button-success p-button-raised" icon="pi pi-thumbs-up-fill"></p-button>
             </div>
         </div>
-        <div
-            class="col-8 md:col-6 lg:col-3 text-center border-1 border-primary-700 border-round-2xl bg-indigo-50 transition-colors transition-duration-1000 hover:bg-primary-200 shadow-5">
+        <div class="col-8 md:col-6 lg:col-3 text-center border-1 border-primary-700 border-round-2xl bg-indigo-50 transition-colors transition-duration-1000 hover:bg-primary-200 shadow-5">
             <h3>PlayStation Network</h3>
             <div class="h-16rem">
                 <img class="imagem h-15rem w-15rem" src="@/assets/imgs/plataformas/psn.png" />
             </div>
             <div class="mb-3">
                 <h4>Principais jogos</h4>
-                <span class="text-left">
-                    <li>
+                <span class="grid justify-content-center">
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
                         God of War
-                    </li>
-                    <li>
+                    </ul>
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
                         The Last of Us
-                    </li>
-                    <li>
+                    </ul>
+                    <ul class="sm:col-12 md:col-6 lg:col-4 border-1 w-10rem vertical-align-middle">
                         FIFA
-                    </li>
+                    </ul>
                 </span>
             </div>
             <div class="flex justify-content-evenly align-items-center mt-2">
