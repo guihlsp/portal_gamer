@@ -26,7 +26,7 @@
         <div v-for="j,i in jogos" :key="i"
             class="col-8 md:col-6 lg:col-3 text-center border-1 border-primary-700 border-round-2xl bg-indigo-50 transition-colors transition-duration-1000 hover:bg-indigo-50 shadow-5">
             <h3>{{j.nome}}</h3>
-            <iframe class="border-round-2xl" width="100%" height="315" :src="j.video"
+            <iframe class="" width="100%" height="315" :src="j.video"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
