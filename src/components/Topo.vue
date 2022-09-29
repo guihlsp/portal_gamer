@@ -45,7 +45,7 @@ export default defineComponent({
                 {
                     label: 'Publishers',
                     icon: 'fa fa-clipboard',
-                    link: '/#plataformas'
+                    link: '/#publishers'
                 },
             ]
         }
