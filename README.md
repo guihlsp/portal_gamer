@@ -6,11 +6,13 @@
 Para criação do Gamer Station, foi utilizado Vue3.Js e framework PrimeVue;
 Para realizar deploy do projeto, foi utilizada a ferramenta Vercel, gratuita e disponível na web: https://vercel.com/
 
-O projeto consiste em:
-- HTML
-- CSS
-- JavaScript
-- TypeScript
+O projeto foi feito em:
+
+- Vue3
+  - HTML
+  - CSS
+  - JavaScript
+  - TypeScript
 
 ################## IMPORTANTE ##################
 
