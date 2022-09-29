@@ -3,7 +3,7 @@
     <div class="">
       <Topo class="sempre col-12"/>
     </div>
-    <router-view/>
+    <router-view class="mt-6"/>
     <Rodape/>
   </main>
 </template>
@@ -25,7 +25,8 @@ export default defineComponent({
 </script>
 <style>
  .sempre {
-  position: fixed; 
+  position: fixed;
+  top:0;
   z-index: 1000;
  }
 #app {
