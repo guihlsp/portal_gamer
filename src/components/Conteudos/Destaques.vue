@@ -1,5 +1,5 @@
 <template>
-    <p-carousel :value="jogos" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="true"
+    <p-carousel :value="jogos" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions" :circular="false"
         class="Carrossel" :autoplayInterval="15000">
         <template #header>
             <span>
@@ -27,7 +27,7 @@
                         <p><b>Produtora: </b>{{jogos.data.produtora}}
                         </p>
                         <p><b>Avaliação: </b>
-                            <p-rating v-model="jogos.data.avaliacao" :stars="5" readonly="true" :cancel="false">
+                            <p-rating v-model="jogos.data.avaliacao" :stars="5" :readonly="true" :cancel="false">
                             </p-rating>
                         </p>
                     </span>
@@ -61,7 +61,7 @@ export default defineComponent({
                     lancamento: "25 de fevereiro de 2022",
                     produtora: "FromSoftware",
                     plataformas: "PS4, Xbox Series X e Series S, Xbox One, PS5, Microsoft Windows",
-                    avaliacao: "4.8",
+                    avaliacao: 4,
                     video: "https://www.youtube.com/embed/E3Huy2cdih0",
                     site: "https://en.bandainamcoent.eu/elden-ring/elden-ring"
                 },
@@ -73,7 +73,7 @@ export default defineComponent({
                     lancamento: "27 de outubro de 2009",
                     produtora: "Riot Games",
                     plataformas: "Microsoft Windows, MacOS",
-                    avaliacao: "3.6",
+                    avaliacao: 3,
                     video: "https://www.youtube.com/embed/mDYqT0_9VR4",
                     site: "https://www.leagueoflegends.com/pt-br/"
                 },
@@ -85,7 +85,7 @@ export default defineComponent({
                     lancamento: "27 de outubro de 2020",
                     produtora: "Microsoft",
                     plataformas: "Microsoft Windows",
-                    avaliacao: "4.3",
+                    avaliacao: 4,
                     video: "https://www.youtube.com/embed/TYqJALPVn0Y",
                     site: "https://www.xbox.com/pt-BR/games/microsoft-flight-simulator"
                 },
@@ -97,7 +97,7 @@ export default defineComponent({
                     lancamento: " 1 de Outubro de 2021",
                     produtora: "Eletronic Arts",
                     plataformas: "Microsoft Windows, PS4, Xbox One, PS5, Xbox Series X/S, Nintendo Switch",
-                    avaliacao: "3.9",
+                    avaliacao: 3,
                     video: "https://www.youtube.com/embed/o1igaMv46SY",
                     site: "https://www.ea.com/pt-br/games/fifa/fifa-22"
                 },
@@ -109,7 +109,7 @@ export default defineComponent({
                     lancamento: "20 de Abril de 2018",
                     produtora: " Santa Monica Studio / Sony Interactive Entertainment",
                     plataformas: "Microsoft Windows, PS4, PS5",
-                    avaliacao: "4.9",
+                    avaliacao: 4,
                     video: "https://www.youtube.com/embed/gOE2BVRCUkM",
                     site: "https://store.steampowered.com/app/1593500/God_of_War/"
                 },
